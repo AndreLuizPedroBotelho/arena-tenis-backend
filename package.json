@@ -4,6 +4,8 @@
   "description": "",
   "main": "src/server.js",
   "scripts": {
+    "start": "node dist/server.js",
+    "build": "sucrase ./src -d ./dist --transforms imports",
     "serve": "nodemon src/server.js"
   },
   "keywords": [],
@@ -17,10 +19,10 @@
     "helmet": "^4.6.0",
     "pg": "^8.6.0",
     "sequelize": "^6.6.2",
-    "validator": "^13.6.0"
+    "validator": "^13.6.0",
+    "sucrase": "^3.18.2"
   },
   "devDependencies": {
-    "nodemon": "^2.0.7",
-    "sucrase": "^3.18.2"
+    "nodemon": "^2.0.7"
   }
 }
