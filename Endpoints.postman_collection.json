@@ -23,13 +23,11 @@
 							}
 						},
 						"url": {
-							"raw": "localhost:4000/api/example",
+							"raw": "{{baseUrl}}/example",
 							"host": [
-								"localhost"
+								"{{baseUrl}}"
 							],
-							"port": "4000",
 							"path": [
-								"api",
 								"example"
 							]
 						}
@@ -51,13 +49,11 @@
 							}
 						},
 						"url": {
-							"raw": "localhost:4000/api/example/1",
+							"raw": "{{baseUrl}}/example/1",
 							"host": [
-								"localhost"
+								"{{baseUrl}}"
 							],
-							"port": "4000",
 							"path": [
-								"api",
 								"example",
 								"1"
 							]
@@ -71,13 +67,11 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "localhost:4000/api/example",
+							"raw": "{{baseUrl}}/example",
 							"host": [
-								"localhost"
+								"{{baseUrl}}"
 							],
-							"port": "4000",
 							"path": [
-								"api",
 								"example"
 							]
 						}
@@ -90,15 +84,13 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "localhost:4000/api/example/1",
+							"raw": "{{baseUrl}}/example/2",
 							"host": [
-								"localhost"
+								"{{baseUrl}}"
 							],
-							"port": "4000",
 							"path": [
-								"api",
 								"example",
-								"1"
+								"2"
 							]
 						}
 					},
@@ -110,13 +102,11 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "localhost:4000/api/example/1",
+							"raw": "{{baseUrl}}/example/1",
 							"host": [
-								"localhost"
+								"{{baseUrl}}"
 							],
-							"port": "4000",
 							"path": [
-								"api",
 								"example",
 								"1"
 							]
